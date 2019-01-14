@@ -16,3 +16,8 @@ ize <- function (dataFrame, columns = names(dataFrame), izer = as.factor) {
 ize(dataFrame = dfPesHead,
     columns = grepl(pattern = "cod_*", x = names(dfPesHead)))
 ```
+
+## Rmarkdown Chunk options
+
+change number of rows in a interactive data.frame
+`rows.print=20`
